@@ -135,6 +135,7 @@ common cap2
 	audit_read
 	perfmon
 	bpf
+	checkpoint_restore
 }
 
 #
