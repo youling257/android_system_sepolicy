@@ -837,3 +837,33 @@ class lockdown
 	integrity
 	confidentiality
 }
+
+class anon_inode
+{
+	ioctl
+	read
+	write
+	create
+	getattr
+	setattr
+	lock
+	relabelfrom
+	relabelto
+	append
+	map
+	unlink
+	link
+	rename
+	execute
+	swapon
+	quotaon
+	mounton
+	open
+	audit_access
+	execmod
+	watch
+	watch_mount
+	watch_sb
+	watch_with_perm
+	watch_reads
+}
