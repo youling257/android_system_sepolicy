@@ -822,6 +822,9 @@ class drmservice {
 class xdp_socket
 inherits socket
 
+class mctp_socket
+inherits socket
+
 class perf_event
 {
 	open
