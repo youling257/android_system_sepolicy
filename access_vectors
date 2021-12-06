@@ -825,6 +825,13 @@ inherits socket
 class mctp_socket
 inherits socket
 
+class io_uring
+inherits socket
+{
+	override_creds
+	sqpoll
+}
+
 class perf_event
 {
 	open
