@@ -830,6 +830,7 @@ inherits socket
 {
 	override_creds
 	sqpoll
+	cmd
 }
 
 class perf_event
