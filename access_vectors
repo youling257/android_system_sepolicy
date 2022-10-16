@@ -825,6 +825,9 @@ inherits socket
 class mctp_socket
 inherits socket
 
+class user_namespace
+inherits socket
+
 class io_uring
 inherits socket
 {

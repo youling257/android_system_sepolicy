@@ -143,6 +143,8 @@ class xdp_socket
 
 class mctp_socket
 
+class user_namespace
+
 class io_uring
 
 class perf_event
